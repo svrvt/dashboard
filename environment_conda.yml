@@ -33,5 +33,5 @@ dependencies:
 
       - guidance
       - huggingface_hub
-      - llama-cpp-python
+      # - llama-cpp-python
       - marimo
