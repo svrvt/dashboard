@@ -30,3 +30,8 @@ dependencies:
       - flake8
       - isort
       - pre-commit
+
+      - guidance
+      - huggingface_hub
+      - llama-cpp-python
+      - marimo
