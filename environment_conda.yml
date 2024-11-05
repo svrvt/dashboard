@@ -31,7 +31,7 @@ dependencies:
       - isort
       - pre-commit
 
-      - guidance
       - huggingface_hub
-      # - llama-cpp-python
-      - marimo
+      - git+https://github.com/svrvt/guidance.git@dev#egg=guidance
+      - --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+      - llama-cpp-python
