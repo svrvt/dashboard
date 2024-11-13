@@ -32,6 +32,10 @@ dependencies:
       - pre-commit
 
       - huggingface_hub
-      - git+https://github.com/svrvt/guidance.git@dev#egg=guidance
-      - --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
-      - llama-cpp-python
+      - -f git+https://github.com/svrvt/guidance.git@dev
+      # - -f https://github.com/svrvt/guidance/archive/dev.zip
+
+      # - -f git+https://github.com/abetlen/llama-cpp-python.git#egg=llama-cpp-python
+      # - -f https://github.com/abetlen/llama-cpp-python/releases/download/v0.3.1/llama_cpp_python-0.3.1-cp310-cp310-linux_x86_64.whl
+      # - --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+      # - llama-cpp-python
