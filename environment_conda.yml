@@ -19,8 +19,11 @@ dependencies:
       - statsmodels
       - pandas_ta==0.3.14b
       - pyyaml
+      - jupyter
+      - optuna
+      - optuna-dashboard
       - pathlib
-      - st_pages
+      - st-pages
       - streamlit-elements==0.1.*
       - streamlit-authenticator==0.3.2
       - pydantic==1.10.4
@@ -29,10 +32,9 @@ dependencies:
       - pre-commit
 
       - huggingface_hub
-      - -f git+https://github.com/svrvt/guidance.git@dev
-      # - -f https://github.com/svrvt/guidance/archive/dev.zip
+      - -f https://github.com/svrvt/guidance/archive/dev.tar.gz
+      - -f https://github.com/abetlen/llama-cpp-python/archive/main.tar.gz
 
-      # - -f git+https://github.com/abetlen/llama-cpp-python.git#egg=llama-cpp-python
-      # - -f https://github.com/abetlen/llama-cpp-python/releases/download/v0.3.1/llama_cpp_python-0.3.1-cp310-cp310-linux_x86_64.whl
+      # - -f git+https://github.com/svrvt/guidance.git@dev
       # - --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
       # - llama-cpp-python
